@@ -7,7 +7,8 @@ one.addEventListener('click', () =>{
     header[0].style.color = "hsl(0, 0%, 100%)";
     keypadCircle.style.backgroundColor = "hsl(223, 31%, 20%)";
     display.style.backgroundColor = "hsl(224, 36%, 15%)";
-    display.style.color = "hsl(0, 0%, 100%)";
+    previousOperandTextElement.style.color = "hsl(0, 0%, 100%)";
+    currentOperandTextElement.style.color = "hsl(30, 25%, 89%)";
     keyboard.style.backgroundColor = "hsl(223, 31%, 20%)";
 
     btn.forEach(btn => {
@@ -18,11 +19,11 @@ one.addEventListener('click', () =>{
     });
 
     buttons[3].style.backgroundColor = " hsl(225, 21%, 49%)";
-    buttons[3].style.boxShadow = "hsl(224, 28%, 35%)";
+    buttons[3].style.boxShadow = "0 0.2rem hsl(224, 28%, 35%)";
     buttons[16].style.backgroundColor = "hsl(225, 21%, 49%)";
-    buttons[16].style.boxShadow = "hsl(224, 28%, 35%)";
+    buttons[16].style.boxShadow = "0 0.2rem hsl(224, 28%, 35%)";
     buttons[17].style.backgroundColor = "hsl(6, 63%, 50%)";
-    buttons[17].style.boxShadow = "hsl(6, 70%, 34%);"  
+    buttons[17].style.boxShadow = "0 0.2rem hsl(6, 70%, 34%)";  
 });
 
 
@@ -35,7 +36,8 @@ two.addEventListener('click', () =>{
     header[0].style.color = "hsl(198, 20%, 13%)";
     keypadCircle.style.backgroundColor = "hsl(0, 5%, 81%)";
     display.style.backgroundColor = "hsl(0, 0%, 93%)";
-    display.style.color = "hsl(198, 20%, 13%)";
+    previousOperandTextElement.style.color = "hsl(198, 20%, 13%)";
+    currentOperandTextElement.style.color = "hsl(198, 20%, 13%)";
     keyboard.style.backgroundColor = "hsl(0, 5%, 81%)";
    
     btn.forEach(btn => {
@@ -46,11 +48,11 @@ two.addEventListener('click', () =>{
     });
 
     buttons[3].style.backgroundColor = "hsl(185, 42%, 37%)";
-    buttons[3].style.boxShadow = "hsl(185, 58%, 25%)";
+    buttons[3].style.boxShadow = "0 0.2rem hsl(185, 58%, 25%)";
     buttons[16].style.backgroundColor = "hsl(185, 42%, 37%)";
-    buttons[16].style.boxShadow = "hsl(185, 58%, 25%)";
+    buttons[16].style.boxShadow = "0 0.2rem hsl(185, 58%, 25%)";
     buttons[17].style.backgroundColor = "hsl(25, 98%, 40%)";
-    buttons[17].style.boxShadow = "hsl(25, 99%, 27%);"
+    buttons[17].style.boxShadow = "0 0.2rem hsl(25, 99%, 27%)";
 
 })
 
@@ -63,7 +65,8 @@ three.addEventListener('click', () =>{
     header[0].style.color = "hsl(52, 100%, 62%)";
     keypadCircle.style.backgroundColor = "hsl(268, 71%, 12%)"
     display.style.backgroundColor = "hsl(268, 71%, 12%)";
-    display.style.color = "hsl(52, 100%, 62%)";
+    previousOperandTextElement.style.color = "hsl(52, 100%, 62%)";
+    currentOperandTextElement.style.color = "hsl(52, 100%, 62%)";
     keyboard.style.backgroundColor = "hsl(268, 71%, 12%)";
     
     btn.forEach(btn => {
@@ -73,9 +76,9 @@ three.addEventListener('click', () =>{
     });
 
     buttons[3].style.backgroundColor = " hsl(281, 89%, 26%)";
-    buttons[3].style.boxShadow = "hsl(285, 91%, 52%)";
+    buttons[3].style.boxShadow = "0 0.2rem hsl(285, 91%, 52%)";
     buttons[16].style.backgroundColor = "hsl(281, 89%, 26%)";
-    buttons[16].style.boxShadow = "hsl(285, 91%, 52%)";
+    buttons[16].style.boxShadow = "0 0.2rem hsl(285, 91%, 52%)";
     buttons[17].style.backgroundColor = "hsl(176, 100%, 44%)";
-    buttons[17].style.boxShadow = "hsl(177, 92%, 70%);"
+    buttons[17].style.boxShadow = "0 0.2rem hsl(177, 92%, 70%)";
 });

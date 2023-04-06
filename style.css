@@ -139,7 +139,7 @@ section {
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 24rem;
+    max-width: 23rem;
     width: 100%;
     height: 40rem;
     
@@ -154,11 +154,14 @@ header {
     color: var(--White);
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 .switch {
     display: flex;
     align-items:center;
-    gap: 2rem;
-    
+    gap: 1rem;
     font-size: 0.7rem;
 }
 
@@ -167,9 +170,9 @@ header {
 .keypadNummers {
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .keypadCircle {
@@ -214,17 +217,14 @@ header {
     word-break: break-all;
     border-radius: .5rem;
     height: 5rem;
-    color: yellow;
 }
 
 .display .previous-operand{
-    color: greenyellow;
-    /* rgba(255,255, 255, 0.75); */
-    font-size: 1.5rem;
+    color: var(--White);
 }
 
 .display .current-operand{
-    color: var(--White);
+    color: var(--Light-grayish-orange);
     font-size: 2.5rem;
 }
 
@@ -260,7 +260,7 @@ header {
 }
 
 .keyboard button {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 
@@ -278,6 +278,9 @@ button[data-delet]{
     background-color: var(--Desaturated-dark-blue);
     box-shadow: 0 .2rem var(--DDesaturated-dark-blue);
     color: var(--White);
+    font-size: 18px;
+    padding: 0.5rem;
+
 }
 
 button[data-reset]:active,
@@ -290,6 +293,8 @@ button[data-equal]{
     box-shadow: 0.02rem 0.2rem var(--Dark-red);
     border: none;
     color: var(--White);
+    font-size: 18px;
+    padding: 0.5rem;
 }
 
 button[data-equal]:active {
@@ -306,6 +311,14 @@ footer a {
 
 @media screen and (max-width: 390px){
 
+    section {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 19rem;
+
+    }
+
     .keys {
         width: 3rem;
     }
@@ -314,5 +327,9 @@ footer a {
     button[data-equal] {
     width: 7rem;
     
+    }
+
+    footer{
+        display: none;
     }
 }
